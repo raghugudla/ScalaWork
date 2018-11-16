@@ -1,4 +1,4 @@
-package scala.org.scala.lang
+package org.scala.lang.basics
 
 object FunctionalProgramEx {
   

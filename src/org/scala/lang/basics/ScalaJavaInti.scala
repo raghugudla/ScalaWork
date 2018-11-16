@@ -1,16 +1,16 @@
-package scala.org.scala.lang
+package org.scala.lang.basics
 
 import java.text.DateFormat._
 import java.util.{Date, Locale}
 
-object ScalaIntro {
+object ScalaJavaInti {
 
   def main(args: Array[String]): Unit = {
 
     val now = new Date()
     println("now: " + now)
 
-    val sv_se = new Locale("sv", "SE");
+    val sv_se = new Locale("sv", "SE")
     println("locale: " + sv_se)
 
     val df = getDateInstance(LONG, sv_se)
